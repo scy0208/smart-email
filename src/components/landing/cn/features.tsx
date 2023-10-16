@@ -58,7 +58,7 @@ const featureConfigs = [
         "title": "根据邮件意图标签，自动推荐模版",
         "subTitle": "模版推荐",
         "description": "减少阅读理解与模版选择时间，提高客服工作效率，利用AI分析推荐，但不依赖AI自动回复，确保回复的人性化与专业性",
-        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-template.png",
+        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-template_1.png",
         "imageAlt": "Gmail Overview",
         "imageFirst": true
     }
