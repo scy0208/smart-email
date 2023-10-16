@@ -38,7 +38,7 @@ const featureConfigs = [
         "title": "使用AI自动化识别每一封邮件意图并标签",
         "subTitle": "意图分析",
         "description": "邮件意图准确标签化，不同颜色标识让客服人员一目了然，永远不会错过重要的客户请求及合作方的更新",
-        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_cn_1.png",
+        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_cn_2.png",
         "imageAlt": "Gmail Overview",
         "imageFirst": false
     },
