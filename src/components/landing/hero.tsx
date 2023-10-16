@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Grid } from "@radix-ui/themes"
 import { siteConfig } from "@/config/site"
 import { Icon } from '@iconify/react';
+import  { Maillist } from '@/components/landing/maillist'
 
 const title = {
     title: "Let AI Manage Your Email",
@@ -11,6 +12,7 @@ const title = {
   };
 
 export function Hero() {
+    
 
     return (
         <section className="relative h-96 bg-cover bg-center pb-8 pt-16">
@@ -26,12 +28,7 @@ export function Hero() {
                     </p>
                     <div className="flex justify-center items-center">
                     <Grid columns="1" gap="3">
-                        <Link
-                            href="/"
-                            className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-slate-700 transition-colors duration-300 hover:bg-slate-200 hover:text-black"
-                        >
-                            Join the beta
-                        </Link>
+                        <Maillist/>
 
                         {/* <Link
                             href={siteConfig.links.github}

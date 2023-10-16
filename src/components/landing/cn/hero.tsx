@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Grid } from "@radix-ui/themes"
 import { siteConfig } from "@/config/site"
 import { Icon } from '@iconify/react';
+import  { Maillist } from '@/components/landing/cn/maillist'
 
 const title = {
     title: "您的 AI 邮件助手",
@@ -26,13 +27,7 @@ export function Hero() {
                     </p>
                     <div className="flex justify-center items-center">
                     <Grid columns="1" gap="3">
-                        <Link
-                            href="/"
-                            className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-slate-700 transition-colors duration-300 hover:bg-slate-200 hover:text-black"
-                        >
-                            加入体验
-                        </Link>
-
+                        <Maillist/>
                         {/* <Link
                             href={siteConfig.links.github}
                             className="inline-block rounded-lg bg-sky-800 border border-slate-400 flex justify-center pt-2 font-semibold text-white transition-colors duration-300 hover:bg-cyan-700 hover:text-white"
