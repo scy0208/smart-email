@@ -7,7 +7,7 @@ import { Icon } from '@iconify/react';
 
 const title = {
     title: "Let AI Manage Your Email",
-    subtitle: "Understand what's going on in your inbox at the time you open it"
+    subtitle: "Categrize every email based on its intention, and help you reply faster and more accurately."
   };
 
 export function Hero() {

@@ -5,7 +5,7 @@ const featureConfigs = [
     {
         "features": [
             {
-                "name": "Natural Language Processing (NLP) Driven Setup",
+                "name": "Plain language Driven Setup",
                 "description": "Just input what you want to achieve, Our AI will help you define label and rules.",
                 "icon": Icons.chevronRight
             },
@@ -25,25 +25,23 @@ const featureConfigs = [
     {
         "features": [
             {
-                "name": "Inbox monitoring",
-                "description": "Constantly monitor your email inbox to ensure that every new email is processed and appropriately managed in real-time.",
-                "icon": Icons.chevronRight
-            },
-            {
                 "name": "Email Intention and topic classification based on GPT-4",
                 "description": "Harness the power of GPT-4 to accurately determine the topic and intention of each email. This ensures a more organized inbox and helps you prioritize your response.",
                 "icon": Icons.chevronRight
+            },
+            {
+                "name": "Inbox Automation",
+                "description": "Automatically label every new email based on intention and your rules",
+                "icon": Icons.chevronRight
             }
         ],
-        "title": "Automated Labeling",
-        "subTitle": "Automatically label every email when they reach your inbox",
+        "title": "Automate Intention detection",
+        "subTitle": "Automatically label every email",
         "description": "Automated Labeling smartly sorts your emails, eliminating manual categorization for a streamlined and organized inbox.",
-        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en.jpg",
+        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en_1.png",
         "imageAlt": "Gmail Overview",
         "imageFirst": true
     }
-    
-    
 ];
 
 export function Features() {
