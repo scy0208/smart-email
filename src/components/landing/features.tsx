@@ -15,30 +15,50 @@ const featureConfigs = [
                 "icon": Icons.chevronRight
             }
         ],
-        "title": "Easy Labels and Rules Management",
-        "subTitle": "Create and manage labels and rules using natural language",
+        "title": "Automate Labels and Rules Management",
+        "subTitle": "Mange labels and rules using plain language",
         "description": "Effortlessly manage your inbox with AI-powered labels and rules. Set up and adjust email categories using simple language, no complex configurations needed.",
         "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en.jpg",
         "imageAlt": "Labels and Rules Management",
-        "imageFirst": false
+        "imageFirst": true
     },  
     {
         "features": [
             {
-                "name": "Email Intention and topic classification based on GPT-4",
-                "description": "Harness the power of GPT-4 to accurately determine the topic and intention of each email. This ensures a more organized inbox and helps you prioritize your response.",
+                "name": "Email Intention and topic classification by AI",
+                "description": "Accurately determine the topic and intention of each email by deeply analyzing the content and context",
                 "icon": Icons.chevronRight
             },
             {
                 "name": "Inbox Automation",
-                "description": "Automatically label every new email based on intention and your rules",
+                "description": "Automatically label every new email using different color, so you can quickly identify and prioritize emails that need your attention",
                 "icon": Icons.chevronRight
             }
         ],
         "title": "Automate Intention detection",
         "subTitle": "Automatically label every email",
-        "description": "Automated Labeling smartly sorts your emails, eliminating manual categorization for a streamlined and organized inbox.",
+        "description": "Smartly sorts your emails by intention and rules, eliminating manual categorization for a streamlined and organized inbox.",
         "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en_1.png",
+        "imageAlt": "Gmail Overview",
+        "imageFirst": false
+    },
+    {
+        "features": [
+            {
+                "name": "Use AI under control",
+                "description": "Balances AI automation with your personal decision, letting you decide the final response to ensure the professional.",
+                "icon": Icons.chevronRight
+            },
+            {
+                "name": "Evolution but not revolution",
+                "description": "Optimize but not replace your existing workflow",
+                "icon": Icons.chevronRight
+            }
+        ],
+        "title": "Automate Response Suggestion",
+        "subTitle": "Suggest best response template for you",
+        "description": "Not rely on AI to auto response, only suggest best response template for you to choose, ensure you are in control of the professional and humanized response.",
+        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-template_1.png",
         "imageAlt": "Gmail Overview",
         "imageFirst": true
     }
