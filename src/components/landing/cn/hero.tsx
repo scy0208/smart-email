@@ -6,8 +6,8 @@ import { siteConfig } from "@/config/site"
 import { Icon } from '@iconify/react';
 
 const title = {
-    title: "让人工智能帮您管理邮箱",
-    subtitle: "最大化您的客服效率，最小化您的客服培训难度"
+    title: "您的 AI 邮件助手",
+    subtitle: "革新你的邮件管理体验。借助人工智能技术，提升客服效率，确保回复准确、专业、高效"
   };
 
 export function Hero() {
@@ -30,7 +30,7 @@ export function Hero() {
                             href="/"
                             className="inline-block rounded-lg bg-white px-8 py-3 font-semibold text-slate-700 transition-colors duration-300 hover:bg-slate-200 hover:text-black"
                         >
-                            Join the beta
+                            加入体验
                         </Link>
 
                         {/* <Link

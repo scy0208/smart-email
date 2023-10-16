@@ -31,11 +31,11 @@ export function Roadmap() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     <div>
-                        <h2 className="text-base font-semibold leading-7 text-indigo-600">We are also evolving</h2>
-                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Future Roadmap</p>
-                        <p className="mt-6 text-base leading-7 text-gray-600">
+                        <h2 className="text-base font-semibold leading-7 text-indigo-600">产品未来展望</h2>
+                        <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">未来功能</p>
+                        {/* <p className="mt-6 text-base leading-7 text-gray-600">
                             This project is at early stage, our goal is to provide a easist integrated system with deepest analytics ability.
-                        </p>
+                        </p> */}
                     </div>
                     <dl className="col-span-2 flex flex-col gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">
                         {features.map((feature) => {

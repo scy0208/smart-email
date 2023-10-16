@@ -6,6 +6,7 @@ import  { Hero } from '@/components/landing/cn/hero'
 import  { Features } from '@/components/landing/cn/features'
 import { TabsFeatures } from "@/components/landing/tabsFeatures"
 import  { Roadmap } from '@/components/landing/cn/roadmap'
+import  { Stats } from '@/components/landing/cn/stats'
 import { Theme } from '@radix-ui/themes';
 
 export default async function IndexPage() {
@@ -14,6 +15,7 @@ export default async function IndexPage() {
     <Theme>
       <Hero/>
       <Features/>
+      <Stats/>
       <Roadmap/>
     </Theme>
   )
