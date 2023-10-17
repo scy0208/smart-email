@@ -15,7 +15,7 @@ export function Hero() {
     
 
     return (
-        <section className="relative h-96 bg-cover bg-center pb-8 pt-16">
+        <section className="relative h-[512px] bg-cover bg-center pb-8 pt-16">
             {/* <!-- Gradient Overlay --> */}
             <div className="absolute inset-0 bg-gradient-to-r from-slate-700 via-sky-800 to-blue-700 opacity-75"></div>
 
@@ -29,6 +29,13 @@ export function Hero() {
                     <div className="flex justify-center items-center">
                     <Grid columns="1" gap="3">
                         <Maillist/>
+                        <Image
+                            src="/wechat-qr-white.png"
+                            width={200}
+                            height={200}
+                            alt="Product Screenshot"
+                            className="shadow-lg rounded-lg"
+                        />
 
                         {/* <Link
                             href={siteConfig.links.github}

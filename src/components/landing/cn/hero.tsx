@@ -7,14 +7,14 @@ import { Icon } from '@iconify/react';
 import  { Maillist } from '@/components/landing/cn/maillist'
 
 const title = {
-    title: "您的 AI 邮件助手",
+    title: "为您提升30%的邮件管理效率",
     subtitle: "革新你的邮件管理体验。借助人工智能技术，提升客服效率，确保回复准确、专业、高效"
   };
 
 export function Hero() {
 
     return (
-        <section className="relative h-96 bg-cover bg-center pb-8 pt-16">
+        <section className="relative h-[512px] bg-cover bg-center pb-8 pt-16">
             {/* <!-- Gradient Overlay --> */}
             <div className="absolute inset-0 bg-gradient-to-r from-slate-700 via-sky-800 to-blue-700 opacity-75"></div>
 
@@ -28,6 +28,13 @@ export function Hero() {
                     <div className="flex justify-center items-center">
                     <Grid columns="1" gap="3">
                         <Maillist/>
+                        <Image
+                            src="/wechat-qr-white.png"
+                            width={200}
+                            height={200}
+                            alt="Product Screenshot"
+                            className="shadow-lg rounded-lg"
+                        />
                         {/* <Link
                             href={siteConfig.links.github}
                             className="inline-block rounded-lg bg-sky-800 border border-slate-400 flex justify-center pt-2 font-semibold text-white transition-colors duration-300 hover:bg-cyan-700 hover:text-white"

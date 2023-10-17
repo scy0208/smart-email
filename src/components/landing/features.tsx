@@ -2,26 +2,26 @@ import { Icons } from "@/components/icons"
 
 const featureConfigs = [
 
-    {
-        "features": [
-            {
-                "name": "Plain language Driven Setup",
-                "description": "Just input what you want to achieve, Our AI will help you define label and rules.",
-                "icon": Icons.chevronRight
-            },
-            {
-                "name": "Adaptive Rules Engine",
-                "description": "Adapts and evolves based on your email patterns, ensuring that the labeling and rules are always in sync with your communication needs.",
-                "icon": Icons.chevronRight
-            }
-        ],
-        "title": "Automate Labels and Rules Management",
-        "subTitle": "Mange labels and rules using plain language",
-        "description": "Effortlessly manage your inbox with AI-powered labels and rules. Set up and adjust email categories using simple language, no complex configurations needed.",
-        "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en.jpg",
-        "imageAlt": "Labels and Rules Management",
-        "imageFirst": true
-    },  
+    // {
+    //     "features": [
+    //         {
+    //             "name": "Plain language Driven Setup",
+    //             "description": "Just input what you want to achieve, Our AI will help you define label and rules.",
+    //             "icon": Icons.chevronRight
+    //         },
+    //         {
+    //             "name": "Adaptive Rules Engine",
+    //             "description": "Adapts and evolves based on your email patterns, ensuring that the labeling and rules are always in sync with your communication needs.",
+    //             "icon": Icons.chevronRight
+    //         }
+    //     ],
+    //     "title": "Automate Labels and Rules Management",
+    //     "subTitle": "Mange labels and rules using plain language",
+    //     "description": "Effortlessly manage your inbox with AI-powered labels and rules. Set up and adjust email categories using simple language, no complex configurations needed.",
+    //     "imageUrl": "https://d2aaddunp29031.cloudfront.net/email-auto-label_en.jpg",
+    //     "imageAlt": "Labels and Rules Management",
+    //     "imageFirst": true
+    // },  
     {
         "features": [
             {

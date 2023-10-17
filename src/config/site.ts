@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types"
 
 export const siteConfig: SiteConfig = {
-  name: "Smart.Email",
+  name: "Wisemail.app",
   description:
     "Automatic labeling gmail by creating rules in nature language.",
   url: "https://llmfeedback.com",

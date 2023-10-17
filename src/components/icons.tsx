@@ -17,6 +17,7 @@ import {
   Laptop,
   Loader2,
   LucideProps,
+  Mail,
   Moon,
   MoreVertical,
   Pizza,
@@ -44,7 +45,7 @@ import {
 export type Icon = LucideIcon
 
 export const Icons = {
-  logo: ThumbsUp,
+  logo: Mail,
   activity: Activity,
   close: X,
   spinner: Loader2,
