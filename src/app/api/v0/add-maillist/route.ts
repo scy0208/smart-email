@@ -8,8 +8,7 @@ type RequestData = {
 
 export const runtime = 'edge';
 
-
-export async function addEmail(email: string) {
+async function addEmail(email: string) {
     try {
         const supabase = createClient()
         await supabase.from('email_list')
