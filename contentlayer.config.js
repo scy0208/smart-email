@@ -44,9 +44,23 @@ export const Blog = defineDocumentType(() => ({
   computedFields
 }))
 
+export const Legal = defineDocumentType(() => ({
+  name: 'Legal',
+  filePathPattern: `legals/**/*.mdx`,
+  contentType: "mdx",
+  fields: {
+    title: { type: 'string', required: true },
+    date: { type: 'date' },
+    description: {
+      type: "string",
+    },
+  },
+  computedFields
+}))
+
 export default makeSource({ 
   contentDirPath: 'content', 
-  documentTypes: [Doc, Blog],
+  documentTypes: [Doc, Blog, Legal],
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [
