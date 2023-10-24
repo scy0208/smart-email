@@ -1,15 +1,6 @@
 /** @type {import('next').NextConfig} */
 const { withContentlayer } = require('next-contentlayer')
 const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/cn',
-        permanent: true,
-      },
-    ]
-  },
     async headers() {
         return [
           {
