@@ -29,13 +29,13 @@ export function Hero() {
                     <div className="flex justify-center items-center">
                     <Grid columns="1" gap="3">
                         <Maillist/>
-                        <Image
+                        {/* <Image
                             src="/wechat-qr-white.png"
                             width={200}
                             height={200}
                             alt="Product Screenshot"
                             className="shadow-lg rounded-lg"
-                        />
+                        /> */}
 
                         {/* <Link
                             href={siteConfig.links.github}

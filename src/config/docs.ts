@@ -2,10 +2,10 @@ import { DocsConfig } from "@/types"
 
 export const docsConfig: DocsConfig = {
   mainNav: [
-    {
-      title: "Documentation",
-      href: "/docs/get-start-with-python-sdk",
-    },
+    // {
+    //   title: "Documentation",
+    //   href: "/docs/get-start-with-python-sdk",
+    // },
   ],
   sidebarNav: [
     {
